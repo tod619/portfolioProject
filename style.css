@@ -14,3 +14,20 @@ html {
   font-size: 62.5%;
 }
 /* End: Reset + Common Styles */
+
+/* Start: Section-1 Landing */
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(images/bg.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* End: Section-1 Landing */
