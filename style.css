@@ -120,6 +120,5 @@ html {
 
 .navbar-link:hover::before {
   width: 130%;
-  transform-origin: center;
 }
 /* End: Navbar */
