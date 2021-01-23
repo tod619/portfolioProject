@@ -143,4 +143,38 @@ html {
   border-bottom: 0.3rem solid #333;
   text-shadow: 0.2rem 0.2rem 0.5rem #555;
 }
+
+.progress-bars-wrapper {
+  margin-bottom: 10rem;
+}
+
+.progress-bar {
+  width: 60rem;
+  height: 3rem;
+  background-color: #ccc;
+  margin: 1.5rem 0;
+  border-radius: 0.3rem;
+  box-shadow: 0.1rem 0.1rem 1rem #555;
+  position: relative;
+}
+
+.progress-text {
+  position: absolute;
+  left: 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.progress-text span {
+  margin: 0 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.progress-percent {
+  width: 90%;
+  height: 100%;
+  background-color: #e41c6f;
+  border-radius: 0.3rem;
+}
 /* End: Section-2 About Me */
