@@ -237,11 +237,26 @@ html {
   margin: 1rem;
   background-color: #fff;
   box-shadow: 0.3rem 0.3rem 0.5rem #777;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  transition: box-shadow 0.5s;
 }
 
+.project:hover {
+  box-shadow: 1rem 1rem 1rem #777;
+}
+
+.project:hover .project-text {
+  top: 5rem;
+  transition: top 0.3s 0.3s;
+}
 .project-text {
   text-align: center;
   letter-spacing: 0.1rem;
+  position: absolute;
+  top: -10rem;
+  transition: top 0.3s;
 }
 
 .project-name {
@@ -258,6 +273,11 @@ html {
 
 .project-img {
   width: 40rem;
+  transition: opacity 0.3s;
+}
+
+.project:hover .project-img {
+  opacity: 0.2;
 }
 
 .project-link {
@@ -268,5 +288,13 @@ html {
   border: 0.3rem solid #e41c6f;
   padding: 0 1rem;
   background-color: #fff;
+  position: absolute;
+  bottom: -5rem;
+  transition: bottom 0.3s;
+}
+
+.project:hover .project-link {
+  bottom: 5rem;
+  transition: bottom 0.3s 0.3s;
 }
 /* End: Section-3 Projects */
