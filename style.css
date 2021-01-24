@@ -212,3 +212,15 @@ html {
   box-shadow: 0.2rem 0.2rem 0.2rem #555;
 }
 /* End: Section-2 About Me */
+
+/* Start: SEction-3 Projects */
+.section-3 {
+  width: 100%;
+  height: 100%;
+  padding: 10rem 0;
+  background-color: #eef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* End: Section-3 Projects */
