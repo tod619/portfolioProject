@@ -347,3 +347,12 @@ html {
   cursor: pointer;
 }
 /* End: Section-4 Contact */
+
+/* Start: Section-5 Footer */
+.section-5 {
+  width: 100%;
+  height: 30vh;
+  background-color: #222;
+  flex-direction: column;
+}
+/* End Section-5 Footer */
