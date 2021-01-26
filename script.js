@@ -10,6 +10,10 @@ const progressBarsPercent = [97,90,82,75,80,70,55]
 
 
 window.addEventListener('scroll', () => {
+    mainFn()
+})
+
+const mainFn = () => {
     if(window.pageYOffset >= navbarOffSet){
         navbar.classList.add('sticky');
     } else {
@@ -33,4 +37,6 @@ window.addEventListener('scroll', () => {
             el.previousElementSibling.firstElementChild.textContent = progressBarsPercent[i];
         })
     }
-})
+}
+
+mainFn()
